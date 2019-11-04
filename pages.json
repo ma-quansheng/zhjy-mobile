@@ -1,0 +1,195 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh":true,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"type": "menu",
+							// "text": "\e563",
+							"fontSize": "14",
+							"select": false,
+							"width": "auto"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/shequ/index",
+			"style": {
+				"navigationBarTitleText": "板块",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"type": "menu",
+							// "text": "\e563",
+							"fontSize": "14",
+							"select": false,
+							"width": "auto"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/notifies/notify-show",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/notifies/question-show",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},{
+			"path": "pages/list/list",
+			"style": {
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"type": "menu",
+							// "text": "\e563",
+							"fontSize": "14",
+							"select": false,
+							"width": "auto"
+						}]
+					}
+				}}
+		}, {
+			"path": "pages/user/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "pages/user/regist",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}, {
+			"path": "pages/user/forgot",
+			"style": {
+				"navigationBarTitleText": "密码重置"
+			}
+		}, {
+			"path": "pages/user/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}, {
+			"path": "pages/properties/list",
+			"style": {
+				"navigationBarTitleText": "我的物业"
+			}
+		},{
+			"path": "pages/properties/edit",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},{
+			"path": "pages/fee/report",
+			"style": {
+				"navigationBarTitleText": "缴费记录"
+			}
+		},{
+			"path": "pages/fee/detail",
+			"style": {
+				"navigationBarTitleText": "缴费详单"
+			}
+		},{
+			"path": "pages/properties/add",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},{
+			"path": "pages/user/kefu",
+			"style": {
+				"navigationBarTitleText": "常用电话"
+			}
+		},{
+			"path": "pages/setting/setting",
+			"style": {
+				"navigationBarTitleText": "更多"
+			}
+		},{
+			"path": "pages/setting/about",
+			"style": {
+				"navigationBarTitleText": "关于"
+			}
+		},{
+			"path": "pages/setting/help",
+			"style": {
+				"navigationBarTitleText": "帮助"
+			}
+		},{
+            "path" : "pages/notifies/index",
+            "style": {
+            	"navigationBarTitleText": "消息",
+            	"app-plus": {
+            		"titleNView": {
+            			"buttons": [{
+            				"type": "menu",
+            				// "text": "\e563",
+            				"fontSize": "14",
+            				"select": false,
+            				"width": "auto"
+            			}]
+            		}
+            	}
+            }
+        }
+        ,{
+            "path" : "pages/notifies/add",
+            "style" : {
+				"navigationBarTitleText": "新建消息",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"type": "menu",
+							// "text": "\e563",
+							"fontSize": "14",
+							"select": false,
+							"width": "auto"
+						}]
+					}
+				}
+			}
+        }
+    ],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/home/index",
+				"iconPath": "static/icons8-home.png",
+				"selectedIconPath": "static/icons8-home-active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/shequ/index",
+				"iconPath": "static/icons8-business-building-100.png",
+				"selectedIconPath": "static/icons8-business-building-active.png",
+				"text": "板块"
+			}, {
+				"pagePath": "pages/notifies/index",
+				"iconPath": "static/icons8-rubber-stamp-100.png",
+				"selectedIconPath": "static/icons8-rubber-stamp-active.png",
+				"text": "消息"
+			}, {
+				"pagePath": "pages/user/my",
+				"iconPath": "static/icons8-people-100.png",
+				"selectedIconPath": "static/icons8-people-active.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
